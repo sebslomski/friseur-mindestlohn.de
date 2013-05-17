@@ -20,9 +20,9 @@ header {
 
 .top-bar {
   background: #363c49;
-  padding: 10px 0;
   font-size: 80%;
   color: #fff;
+  text-align: center;
 }
 
 .top-bar div{
@@ -43,6 +43,12 @@ header {
   -o-box-shadow: 0 0 0.3em 0 rgba(0,0,0,0.2);
 }
 
+img {
+  width: 100%;
+  border: 8px solid #fff;
+  box-shadow: 0px 0px 2px grey;
+}
+
 h1 { 
   font-weight: 400; 
   font-size: 2em;
@@ -55,13 +61,25 @@ h2 {
   padding: 0 0 0.5em 0;
 }
 
-a {
+h3 {
+  font-weight: 400; 
+}
+
+ol li a {
   color: #363c49;
+}
+
+a {
   text-decoration: none;
+  color: #65cf7a;
 }
 
 a:hover {
   text-decoration: underline;
+}
+
+b {
+  font-weight: 400;
 }
 
 .topics {
@@ -74,6 +92,7 @@ a:hover {
 
 .topics li#even {
   background: #f2f3f5;
+  border-bottom: 3px solid #ffffff;
 }
 
 .content {
