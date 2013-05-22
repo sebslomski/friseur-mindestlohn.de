@@ -99,6 +99,7 @@ img {
     font-size: 0.8em;
 }
 
+
 h1 {
     font-weight: 400; 
     font-size: 2em;
@@ -167,6 +168,15 @@ em {
 
 .topics li.even a {
     color: #afbbcf;
+}
+
+
+.stButton .stBubble_count {
+    height: 41px !important;
+}
+
+.stButton .stFb, .stButton .stTwbutton, .stButton .stMainServices, .stButton .stButton_gradient {
+    height: 22px !important;
 }
 
 
