@@ -1,9 +1,9 @@
 * {
-    box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
     -o-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 
@@ -22,10 +22,10 @@ body {
     background: #f2f3f5 url(../images/cover.jpg);
     background-position: 0px 50%;
 
-    background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+    background-size: cover;
     padding: 0 0 20em;
 }
 
@@ -54,15 +54,15 @@ body {
     border: 1px solid #e0e1e3;
     background: #fff;
 
-    border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     -o-border-radius: 5px;
+    border-radius: 5px;
 
-    box-shadow: 0 0 0.3em 0 rgba(0,0,0,0.1);
     -webkit-box-shadow: 0 0 0.3em 0 rgba(0,0,0,0.1);
     -moz-box-shadow: 0 0 0.3em 0 rgba(0,0,0,0.1);
     -o-box-shadow: 0 0 0.3em 0 rgba(0,0,0,0.1);
+    box-shadow: 0 0 0.3em 0 rgba(0,0,0,0.1);
 }
 
 .chapter {
@@ -81,8 +81,7 @@ body {
 img {
     width: 100%;
     display: block;
-    /*float: left;*/
-    
+
     margin-top: 1em;
 
     border: 8px solid #fff;
@@ -180,6 +179,26 @@ em {
 }
 
 
+.author {
+    margin-bottom: 50px;
+    float: left;
+    width: 100%;
+}
+
+
+.author img {
+    width: 20%;
+    float: left;
+}
+
+
+.author p {
+    width: 80%;
+    float: left;
+    padding-left: 30px;
+}
+
+
 @media all and (max-width: 640px){
     .main {
         max-width: 100%;
@@ -193,5 +212,16 @@ em {
     .top-bar div {
         max-width: 82%;
         margin: 0 auto;
+    }
+
+    .author img {
+        margin: 0 auto;
+        width: 50%;
+        float: none;
+    }
+
+    .author p {
+        width: 100%;
+        padding: 0;
     }
 }
